@@ -36,7 +36,9 @@ public class MyFilterRequest implements Filter, ApplicationListener<ApplicationR
 
         HttpServletRequest httpServletRequest = (HttpServletRequest) request;
         String clientId = requestService.getClientId(httpServletRequest);
+
         Optional<String> checkId = collect.stream().filter(el -> el.equals(clientId)).findFirst();
+
         String remoteAddr = httpServletRequest.getRemoteAddr();
 
         logger.info("################################################ Filter method № " + ++count);

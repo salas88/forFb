@@ -13,7 +13,7 @@ public class MainController  {
 
     private final Logger logger = Logger.getLogger(MainController.class.getName());
 
-    @GetMapping
+    @GetMapping("/")
     public String mainPage(HttpServletRequest request) {
         logger.info("from controller");
         String check = (String) request.getAttribute("check");
