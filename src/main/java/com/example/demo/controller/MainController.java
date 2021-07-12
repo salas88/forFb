@@ -22,7 +22,7 @@ public class MainController  {
     @GetMapping("/")
     public String mainPage(HttpServletRequest request) {
         User user = new User();
-        user.setName("Gaguas");
+        user.setName("newName");
         userRepository.save(user);
 
         logger.info("from controller");

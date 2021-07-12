@@ -2375,3 +2375,111 @@ Caused by: java.sql.SQLException: The server name you tried cannot be found: spr
 2021-07-13 02:23:37.273  INFO 26659 --- [SpringContextShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
 2021-07-13 02:23:37.277  INFO 26659 --- [SpringContextShutdownHook] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown initiated...
 2021-07-13 02:23:37.285  INFO 26659 --- [SpringContextShutdownHook] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown completed.
+2021-07-13 02:40:17.715  INFO 28253 --- [restartedMain] c.e.d.DemoApplication                    : Starting DemoApplication using Java 11.0.11 on salas with PID 28253 (/home/salas/Desktop/myCloak/target/classes started by salas in /home/salas/Desktop/myCloak)
+2021-07-13 02:40:17.722  INFO 28253 --- [restartedMain] c.e.d.DemoApplication                    : The following profiles are active: dev
+2021-07-13 02:40:17.772  INFO 28253 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-07-13 02:40:17.772  INFO 28253 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-07-13 02:40:18.642  INFO 28253 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-07-13 02:40:18.683  INFO 28253 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 34 ms. Found 1 JPA repository interfaces.
+2021-07-13 02:40:19.204  INFO 28253 --- [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8080 (http)
+2021-07-13 02:40:19.212  INFO 28253 --- [restartedMain] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2021-07-13 02:40:19.213  INFO 28253 --- [restartedMain] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.43]
+2021-07-13 02:40:19.269  INFO 28253 --- [restartedMain] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2021-07-13 02:40:19.269  INFO 28253 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1496 ms
+2021-07-13 02:40:19.475  INFO 28253 --- [restartedMain] c.z.h.HikariDataSource                   : HikariPool-1 - Starting...
+2021-07-13 02:40:22.620  INFO 28253 --- [restartedMain] c.z.h.HikariDataSource                   : HikariPool-1 - Start completed.
+2021-07-13 02:40:22.725  INFO 28253 --- [restartedMain] o.h.j.i.u.LogHelper                      : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-07-13 02:40:22.776  INFO 28253 --- [restartedMain] o.h.Version                              : HHH000412: Hibernate ORM core version 5.4.28.Final
+2021-07-13 02:40:22.891  INFO 28253 --- [restartedMain] o.h.a.c.Version                          : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-07-13 02:40:22.989  INFO 28253 --- [restartedMain] o.h.d.Dialect                            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2021-07-13 02:40:23.343  INFO 28253 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-07-13 02:40:23.352  INFO 28253 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-07-13 02:40:23.603  WARN 28253 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-07-13 02:40:23.690  INFO 28253 --- [restartedMain] o.s.s.c.ThreadPoolTaskExecutor           : Initializing ExecutorService 'applicationTaskExecutor'
+2021-07-13 02:40:23.747  INFO 28253 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2021-07-13 02:40:24.001  INFO 28253 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-07-13 02:40:24.006  INFO 28253 --- [restartedMain] o.s.b.a.e.w.EndpointLinksResolver        : Exposing 2 endpoint(s) beneath base path '/actuator'
+2021-07-13 02:40:24.045  INFO 28253 --- [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8080 (http) with context path ''
+2021-07-13 02:40:24.059  INFO 28253 --- [restartedMain] c.e.d.DemoApplication                    : Started DemoApplication in 6.783 seconds (JVM running for 7.662)
+2021-07-13 02:40:24.168  INFO 28253 --- [RMI TCP Connection(3)-192.168.0.106] o.a.c.c.C.[.[.[/]                        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-07-13 02:40:24.169  INFO 28253 --- [RMI TCP Connection(3)-192.168.0.106] o.s.w.s.DispatcherServlet                : Initializing Servlet 'dispatcherServlet'
+2021-07-13 02:40:24.170  INFO 28253 --- [RMI TCP Connection(3)-192.168.0.106] o.s.w.s.DispatcherServlet                : Completed initialization in 1 ms
+2021-07-13 02:40:27.704  INFO 28253 --- [http-nio-8080-exec-1] c.e.d.f.MyFilterRequest                  : ################################################ Filter method № 1
+2021-07-13 02:40:27.705  INFO 28253 --- [http-nio-8080-exec-1] c.e.d.f.MyFilterRequest                  : host localhost:8080
+2021-07-13 02:40:27.705  INFO 28253 --- [http-nio-8080-exec-1] c.e.d.f.MyFilterRequest                  : connection keep-alive
+2021-07-13 02:40:27.706  INFO 28253 --- [http-nio-8080-exec-1] c.e.d.f.MyFilterRequest                  : sec-ch-ua "Chromium";v="91", " Not;A Brand";v="99"
+2021-07-13 02:40:27.706  INFO 28253 --- [http-nio-8080-exec-1] c.e.d.f.MyFilterRequest                  : sec-ch-ua-mobile ?0
+2021-07-13 02:40:27.706  INFO 28253 --- [http-nio-8080-exec-1] c.e.d.f.MyFilterRequest                  : upgrade-insecure-requests 1
+2021-07-13 02:40:27.706  INFO 28253 --- [http-nio-8080-exec-1] c.e.d.f.MyFilterRequest                  : user-agent Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.101 Safari/537.36
+2021-07-13 02:40:27.707  INFO 28253 --- [http-nio-8080-exec-1] c.e.d.f.MyFilterRequest                  : accept text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+2021-07-13 02:40:27.707  INFO 28253 --- [http-nio-8080-exec-1] c.e.d.f.MyFilterRequest                  : purpose prefetch
+2021-07-13 02:40:27.707  INFO 28253 --- [http-nio-8080-exec-1] c.e.d.f.MyFilterRequest                  : sec-fetch-site none
+2021-07-13 02:40:27.707  INFO 28253 --- [http-nio-8080-exec-1] c.e.d.f.MyFilterRequest                  : sec-fetch-mode navigate
+2021-07-13 02:40:27.708  INFO 28253 --- [http-nio-8080-exec-1] c.e.d.f.MyFilterRequest                  : sec-fetch-user ?1
+2021-07-13 02:40:27.708  INFO 28253 --- [http-nio-8080-exec-1] c.e.d.f.MyFilterRequest                  : sec-fetch-dest document
+2021-07-13 02:40:27.708  INFO 28253 --- [http-nio-8080-exec-1] c.e.d.f.MyFilterRequest                  : accept-encoding gzip, deflate, br
+2021-07-13 02:40:27.709  INFO 28253 --- [http-nio-8080-exec-1] c.e.d.f.MyFilterRequest                  : accept-language ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7,uk;q=0.6
+2021-07-13 02:40:27.709  INFO 28253 --- [http-nio-8080-exec-1] c.e.d.f.MyFilterRequest                  : cookie JSESSIONID=0144C8F0F95EF94A38E44F6CB07ADB35
+2021-07-13 02:40:28.175  INFO 28253 --- [http-nio-8080-exec-1] c.e.d.f.MyFilterRequest                  : Country : Russia
+2021-07-13 02:40:28.176  INFO 28253 --- [http-nio-8080-exec-1] c.e.d.f.MyFilterRequest                  : Client id : 192.168.0.106
+2021-07-13 02:40:28.176  INFO 28253 --- [http-nio-8080-exec-1] c.e.d.f.MyFilterRequest                  : Remote Adr : 127.0.0.1
+2021-07-13 02:40:28.176  INFO 28253 --- [http-nio-8080-exec-1] c.e.d.f.MyFilterRequest                  : ---------------End Filter
+2021-07-13 02:40:30.299  INFO 28253 --- [http-nio-8080-exec-1] c.e.d.c.MainController                   : from controller
+2021-07-13 02:40:30.299  INFO 28253 --- [http-nio-8080-exec-1] c.e.d.c.MainController                   : good Page 
+2021-07-13 02:40:30.300  INFO 28253 --- [http-nio-8080-exec-1] c.e.d.c.MainController                   : ################################################ User got a page
+2021-07-13 02:40:45.223  INFO 28253 --- [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskExecutor           : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-07-13 02:40:45.224  INFO 28253 --- [SpringContextShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-07-13 02:40:45.227  INFO 28253 --- [SpringContextShutdownHook] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown initiated...
+2021-07-13 02:40:45.236  INFO 28253 --- [SpringContextShutdownHook] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown completed.
+2021-07-13 02:46:27.705  INFO 29020 --- [restartedMain] c.e.d.DemoApplication                    : Starting DemoApplication using Java 11.0.11 on salas with PID 29020 (/home/salas/Desktop/myCloak/target/classes started by salas in /home/salas/Desktop/myCloak)
+2021-07-13 02:46:27.714  INFO 29020 --- [restartedMain] c.e.d.DemoApplication                    : The following profiles are active: dev
+2021-07-13 02:46:27.781  INFO 29020 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-07-13 02:46:27.782  INFO 29020 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-07-13 02:46:28.458  INFO 29020 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-07-13 02:46:28.495  INFO 29020 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 30 ms. Found 1 JPA repository interfaces.
+2021-07-13 02:46:28.863  INFO 29020 --- [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8080 (http)
+2021-07-13 02:46:28.871  INFO 29020 --- [restartedMain] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2021-07-13 02:46:28.872  INFO 29020 --- [restartedMain] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.43]
+2021-07-13 02:46:28.917  INFO 29020 --- [restartedMain] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2021-07-13 02:46:28.917  INFO 29020 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1134 ms
+2021-07-13 02:46:29.068  INFO 29020 --- [restartedMain] c.z.h.HikariDataSource                   : HikariPool-1 - Starting...
+2021-07-13 02:46:33.004  INFO 29020 --- [restartedMain] c.z.h.HikariDataSource                   : HikariPool-1 - Start completed.
+2021-07-13 02:46:33.039  INFO 29020 --- [restartedMain] o.h.j.i.u.LogHelper                      : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-07-13 02:46:33.067  INFO 29020 --- [restartedMain] o.h.Version                              : HHH000412: Hibernate ORM core version 5.4.28.Final
+2021-07-13 02:46:33.144  INFO 29020 --- [restartedMain] o.h.a.c.Version                          : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-07-13 02:46:33.222  INFO 29020 --- [restartedMain] o.h.d.Dialect                            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2021-07-13 02:46:33.707  INFO 29020 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-07-13 02:46:33.719  INFO 29020 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-07-13 02:46:34.106  WARN 29020 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-07-13 02:46:34.228  INFO 29020 --- [restartedMain] o.s.s.c.ThreadPoolTaskExecutor           : Initializing ExecutorService 'applicationTaskExecutor'
+2021-07-13 02:46:34.289  INFO 29020 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2021-07-13 02:46:34.633  INFO 29020 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-07-13 02:46:34.639  INFO 29020 --- [restartedMain] o.s.b.a.e.w.EndpointLinksResolver        : Exposing 2 endpoint(s) beneath base path '/actuator'
+2021-07-13 02:46:34.696  INFO 29020 --- [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8080 (http) with context path ''
+2021-07-13 02:46:34.714  INFO 29020 --- [restartedMain] c.e.d.DemoApplication                    : Started DemoApplication in 7.498 seconds (JVM running for 8.379)
+2021-07-13 02:46:35.213  INFO 29020 --- [RMI TCP Connection(2)-192.168.0.106] o.a.c.c.C.[.[.[/]                        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-07-13 02:46:35.213  INFO 29020 --- [RMI TCP Connection(2)-192.168.0.106] o.s.w.s.DispatcherServlet                : Initializing Servlet 'dispatcherServlet'
+2021-07-13 02:46:35.215  INFO 29020 --- [RMI TCP Connection(2)-192.168.0.106] o.s.w.s.DispatcherServlet                : Completed initialization in 2 ms
+2021-07-13 02:46:37.147  INFO 29020 --- [http-nio-8080-exec-1] c.e.d.f.MyFilterRequest                  : ################################################ Filter method № 1
+2021-07-13 02:46:37.148  INFO 29020 --- [http-nio-8080-exec-1] c.e.d.f.MyFilterRequest                  : host localhost:8080
+2021-07-13 02:46:37.148  INFO 29020 --- [http-nio-8080-exec-1] c.e.d.f.MyFilterRequest                  : connection keep-alive
+2021-07-13 02:46:37.148  INFO 29020 --- [http-nio-8080-exec-1] c.e.d.f.MyFilterRequest                  : sec-ch-ua "Chromium";v="91", " Not;A Brand";v="99"
+2021-07-13 02:46:37.149  INFO 29020 --- [http-nio-8080-exec-1] c.e.d.f.MyFilterRequest                  : sec-ch-ua-mobile ?0
+2021-07-13 02:46:37.149  INFO 29020 --- [http-nio-8080-exec-1] c.e.d.f.MyFilterRequest                  : upgrade-insecure-requests 1
+2021-07-13 02:46:37.149  INFO 29020 --- [http-nio-8080-exec-1] c.e.d.f.MyFilterRequest                  : user-agent Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.101 Safari/537.36
+2021-07-13 02:46:37.150  INFO 29020 --- [http-nio-8080-exec-1] c.e.d.f.MyFilterRequest                  : accept text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+2021-07-13 02:46:37.150  INFO 29020 --- [http-nio-8080-exec-1] c.e.d.f.MyFilterRequest                  : purpose prefetch
+2021-07-13 02:46:37.150  INFO 29020 --- [http-nio-8080-exec-1] c.e.d.f.MyFilterRequest                  : sec-fetch-site none
+2021-07-13 02:46:37.150  INFO 29020 --- [http-nio-8080-exec-1] c.e.d.f.MyFilterRequest                  : sec-fetch-mode navigate
+2021-07-13 02:46:37.151  INFO 29020 --- [http-nio-8080-exec-1] c.e.d.f.MyFilterRequest                  : sec-fetch-user ?1
+2021-07-13 02:46:37.151  INFO 29020 --- [http-nio-8080-exec-1] c.e.d.f.MyFilterRequest                  : sec-fetch-dest document
+2021-07-13 02:46:37.151  INFO 29020 --- [http-nio-8080-exec-1] c.e.d.f.MyFilterRequest                  : accept-encoding gzip, deflate, br
+2021-07-13 02:46:37.151  INFO 29020 --- [http-nio-8080-exec-1] c.e.d.f.MyFilterRequest                  : accept-language ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7,uk;q=0.6
+2021-07-13 02:46:37.152  INFO 29020 --- [http-nio-8080-exec-1] c.e.d.f.MyFilterRequest                  : cookie JSESSIONID=0144C8F0F95EF94A38E44F6CB07ADB35
+2021-07-13 02:46:37.158  INFO 29020 --- [http-nio-8080-exec-1] c.e.d.f.MyFilterRequest                  : Country : Russia
+2021-07-13 02:46:37.158  INFO 29020 --- [http-nio-8080-exec-1] c.e.d.f.MyFilterRequest                  : Client id : 192.168.0.106
+2021-07-13 02:46:37.158  INFO 29020 --- [http-nio-8080-exec-1] c.e.d.f.MyFilterRequest                  : Remote Adr : 127.0.0.1
+2021-07-13 02:46:37.158  INFO 29020 --- [http-nio-8080-exec-1] c.e.d.f.MyFilterRequest                  : ---------------End Filter
+2021-07-13 02:46:38.982  INFO 29020 --- [http-nio-8080-exec-1] c.e.d.c.MainController                   : from controller
+2021-07-13 02:46:38.983  INFO 29020 --- [http-nio-8080-exec-1] c.e.d.c.MainController                   : good Page 
+2021-07-13 02:46:38.983  INFO 29020 --- [http-nio-8080-exec-1] c.e.d.c.MainController                   : ################################################ User got a page
