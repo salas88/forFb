@@ -23,7 +23,7 @@ public class MainController  {
     public String mainPage(HttpServletRequest request) {
         User user = new User();
         user.setName("Gaguas");
-        userRepository.save(user);    
+        userRepository.save(user);
 
         logger.info("from controller");
         String check = (String) request.getAttribute("check");
