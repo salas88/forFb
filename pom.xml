@@ -36,12 +36,6 @@
             <artifactId>spring-boot-starter-actuator</artifactId>
             <version>2.5.2</version>
         </dependency>
-
-        <dependency>
-            <groupId>de.malkusch.whois-server-list</groupId>
-            <artifactId>whois-api</artifactId>
-            <version>0.0.8</version>
-        </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter</artifactId>
@@ -62,7 +56,11 @@
             <scope>runtime</scope>
         </dependency>
 
-
+        <dependency>
+            <groupId>com.microsoft.sqlserver</groupId>
+            <artifactId>mssql-jdbc</artifactId>
+            <scope>runtime</scope>
+        </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-log4j2</artifactId>
